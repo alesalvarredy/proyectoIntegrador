@@ -1,0 +1,23 @@
+.footer {
+    background-image: linear-gradient(to right, #004d7a, #008793);
+  }
+  
+  .footer .container-footer {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer .container-footer a {
+    text-decoration: none;
+    color: var(--gray-200);
+    padding: 3rem 0;
+    width: 100px;
+    text-align: center;
+  }
+  
+  .footer .container-footer a:hover {
+    color: var(--gray-500);
+  }

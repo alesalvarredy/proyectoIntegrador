@@ -10,11 +10,11 @@
   
   .speakers .container-speakers {
     width: 70%;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-  
+    padding: 5%;
   }
   
   .speakers .card {

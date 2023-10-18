@@ -17,7 +17,6 @@
   
   }
   
-  /* MEDIA QUERIES MD 768*/
   @media(max-width: 768px) {
     .container-cta {
       display: flex;
@@ -70,30 +69,18 @@
     }
   
   }
+
+  @media(max-width: 768px){
+    .container-mi img {
+      display: none;
+    }
+    
+  }
   
-  
-  /* MEDIA QUERIES SM 576*/
   @media(max-width: 576px) {
     .showcase .buttonarea {
       display: flex;
       flex-direction: column;
       justify-content: center;
     }
-  
-    .tickets-form .ticketsFirstName,
-    .ticketsLastName {
-      width: 100%;
-    }
-  
-  
-    .tickets-form .labelTicketsQuantity,
-    .labelTicketsCategory {
-      width: 100%;
-    }
-  
-    .tickets-form .btnTickets {
-      width: 100%;
-  
-    }
-  
   }

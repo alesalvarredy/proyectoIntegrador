@@ -18,15 +18,10 @@
 }
 
 html {
-  /* font-size: 62.5%; */
   scroll-behavior: smooth;
 }
 
-/* NAVBAR FROM BOOTSTAP */
-
 .navbar-expand-lg.navbar-dark {
-  /* --bs-bg-opacity: 1; */
-  /* background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important; */
   background-color: var(--gray-700) !important;
 }
 

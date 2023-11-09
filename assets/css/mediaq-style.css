@@ -83,4 +83,20 @@
       flex-direction: column;
       justify-content: center;
     }
+
+  .tickets-form .ticketsFirstName,
+  .ticketsLastName {
+    width: 100%;
+  }
+
+
+  .tickets-form .labelTicketsQuantity,
+  .labelTicketsCategory {
+    width: 100%;
+  }
+
+  .tickets-form .btnTickets {
+    width: 100%;
+
+  }
   }
